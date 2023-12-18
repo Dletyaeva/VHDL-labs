@@ -1,0 +1,66 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do thunderbird_fsm_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/letya/Documents/Classes/230/projects/lab8-sim/thunderbird_fsm.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:36:27 on Oct 29,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/letya/Documents/Classes/230/projects/lab8-sim/thunderbird_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity thunderbird_fsm
+# -- Compiling architecture behaviour of thunderbird_fsm
+# End time: 18:36:27 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# do "C:/Users/letya/Documents/Classes/230/projects/lab8-sim/Tbird.do"
+#the name must be the same as your vhdl filename
+# vsim thunderbird_fsm
+# vsim thunderbird_fsm 
+# Start time: 18:36:27 on Oct 29,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.thunderbird_fsm(behaviour)
+# 
+#view waveform
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 
+#view input signals
+# add wave i_clk 
+# add wave i_reset
+# add wave -color Violet i_left
+# add wave -color Yellow i_right
+# 
+#view internal signals
+#add wave next_state
+#add wave current_state 
+# 
+#view output signal
+# add wave -color Coral o_lights_L
+# add wave -color Cyan o_lights_R
+# 
+#set input signal values
+# force i_clk 0 0 ns, 1 10 ns -repeat 20 ns
+# force i_reset 1 0 ns,0 20 ns, 1 190 ns, 0 195 ns, 1 270 ns, 0 275 ns, 1 460 ns, 0 470 ns, 1 540 ns, 0 560 ns
+# force i_left 0 0 ns, 1 30 ns, 0 80 ns, 1 190 ns, 0 195 ns, 1 350 ns, 0 400 ns, 1 430 ns, 0 480 ns
+# force i_right 0 0 ns, 1 110 ns, 0 160 ns, 1 270 ns, 0 275 ns, 1 350 ns, 0 400 ns, 1 510 ns, 0 560 ns
+# 
+# 
+# 
+# 
+# 
+#run simulation
+# run 600 ns
+# End time: 18:57:01 on Oct 29,2023, Elapsed time: 0:20:34
+# Errors: 0, Warnings: 0

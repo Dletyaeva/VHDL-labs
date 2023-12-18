@@ -1,0 +1,175 @@
+|ALU
+A[0] => Mux2input4bit:muxA.input0[0]
+A[0] => Mux2input4bit:muxA.input1[0]
+A[1] => Mux2input4bit:muxA.input0[1]
+A[1] => Mux2input4bit:muxA.input1[1]
+A[2] => Mux2input4bit:muxA.input0[2]
+A[2] => Mux2input4bit:muxA.input1[2]
+A[3] => Mux2input4bit:muxA.input0[3]
+A[3] => Mux2input4bit:muxA.input1[3]
+B[0] => Mux2input4bit:muxB.input0[0]
+B[0] => Mux2input4bit:muxB.input1[0]
+B[1] => Mux2input4bit:muxB.input0[1]
+B[1] => Mux2input4bit:muxB.input1[1]
+B[2] => Mux2input4bit:muxB.input0[2]
+B[2] => Mux2input4bit:muxB.input1[2]
+B[3] => Mux2input4bit:muxB.input0[3]
+B[3] => Mux2input4bit:muxB.input1[3]
+ALU_op[0] => Mux4Input4bit:MUX4IN.S[0]
+ALU_op[1] => Mux4Input4bit:MUX4IN.S[1]
+A_inv => Mux2input4bit:muxA.S
+B_inv => Mux2input4bit:muxB.S
+C_in => Adder4bit:ADD.C_in
+ALU_out[0] <= Mux4Input4bit:MUX4IN.output[0]
+ALU_out[1] <= Mux4Input4bit:MUX4IN.output[1]
+ALU_out[2] <= Mux4Input4bit:MUX4IN.output[2]
+ALU_out[3] <= Mux4Input4bit:MUX4IN.output[3]
+N <= Adder4bit:ADD.S[3]
+C <= Adder4bit:ADD.C_out_3
+V <= V.DB_MAX_OUTPUT_PORT_TYPE
+Z <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Mux2Input4Bit:muxA
+s => output.OUTPUTSELECT
+s => output.OUTPUTSELECT
+s => output.OUTPUTSELECT
+s => output.OUTPUTSELECT
+input0[0] => output.DATAB
+input0[1] => output.DATAB
+input0[2] => output.DATAB
+input0[3] => output.DATAB
+input1[0] => output.DATAA
+input1[1] => output.DATAA
+input1[2] => output.DATAA
+input1[3] => output.DATAA
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Mux2Input4Bit:muxB
+s => output.OUTPUTSELECT
+s => output.OUTPUTSELECT
+s => output.OUTPUTSELECT
+s => output.OUTPUTSELECT
+input0[0] => output.DATAB
+input0[1] => output.DATAB
+input0[2] => output.DATAB
+input0[3] => output.DATAB
+input1[0] => output.DATAA
+input1[1] => output.DATAA
+input1[2] => output.DATAA
+input1[3] => output.DATAA
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Adder4Bit:ADD
+C_in => Adder1bit:adder0.C_in
+X[0] => Adder1bit:adder0.X
+X[1] => Adder1bit:adder1.X
+X[2] => Adder1bit:adder2.X
+X[3] => Adder1bit:adder3.X
+Y[0] => Adder1bit:adder0.Y
+Y[1] => Adder1bit:adder1.Y
+Y[2] => Adder1bit:adder2.Y
+Y[3] => Adder1bit:adder3.Y
+S[0] <= Adder1bit:adder0.S
+S[1] <= Adder1bit:adder1.S
+S[2] <= Adder1bit:adder2.S
+S[3] <= Adder1bit:adder3.S
+C_out_2 <= Adder1bit:adder2.C_out
+C_out_3 <= Adder1bit:adder3.C_out
+
+
+|ALU|Adder4Bit:ADD|Adder1Bit:adder0
+X => S.IN0
+X => C_out.IN0
+X => C_out.IN0
+Y => S.IN1
+Y => C_out.IN1
+Y => C_out.IN0
+C_in => S.IN1
+C_in => C_out.IN1
+C_in => C_out.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C_out <= C_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Adder4Bit:ADD|Adder1Bit:adder1
+X => S.IN0
+X => C_out.IN0
+X => C_out.IN0
+Y => S.IN1
+Y => C_out.IN1
+Y => C_out.IN0
+C_in => S.IN1
+C_in => C_out.IN1
+C_in => C_out.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C_out <= C_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Adder4Bit:ADD|Adder1Bit:adder2
+X => S.IN0
+X => C_out.IN0
+X => C_out.IN0
+Y => S.IN1
+Y => C_out.IN1
+Y => C_out.IN0
+C_in => S.IN1
+C_in => C_out.IN1
+C_in => C_out.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C_out <= C_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Adder4Bit:ADD|Adder1Bit:adder3
+X => S.IN0
+X => C_out.IN0
+X => C_out.IN0
+Y => S.IN1
+Y => C_out.IN1
+Y => C_out.IN0
+C_in => S.IN1
+C_in => C_out.IN1
+C_in => C_out.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C_out <= C_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Mux4Input4Bit:MUX4IN
+s[0] => Mux0.IN1
+s[0] => Mux1.IN1
+s[0] => Mux2.IN1
+s[0] => Mux3.IN1
+s[1] => Mux0.IN0
+s[1] => Mux1.IN0
+s[1] => Mux2.IN0
+s[1] => Mux3.IN0
+input0[0] => Mux3.IN2
+input0[1] => Mux2.IN2
+input0[2] => Mux1.IN2
+input0[3] => Mux0.IN2
+input1[0] => Mux3.IN3
+input1[1] => Mux2.IN3
+input1[2] => Mux1.IN3
+input1[3] => Mux0.IN3
+input2[0] => Mux3.IN4
+input2[1] => Mux2.IN4
+input2[2] => Mux1.IN4
+input2[3] => Mux0.IN4
+input3[0] => Mux3.IN5
+input3[1] => Mux2.IN5
+input3[2] => Mux1.IN5
+input3[3] => Mux0.IN5
+output[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

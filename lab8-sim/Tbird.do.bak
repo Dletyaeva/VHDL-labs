@@ -1,0 +1,29 @@
+#the name must be the same as your vhdl filename
+vsim thunderbird_fsm.vhd
+
+#view waveform
+view wave
+
+#view input signals
+add wave i_clk
+add wave i_reset
+add wave i_left
+add wave i_right
+
+#view internal signals
+add wave next_state
+add wave current_state
+
+#view output signal
+add wave o_lights_L
+add wave o_lights_R
+
+#set input signal values
+force i_clk 1 0, 1 10 -repeat 20
+force i_reset 1 0, 1 10, 1 35, 1 125 -repeat 20
+
+force i_left 0 1, 1 20 -repeat 10
+force i_right 0 1, 1 20 -repeat 10
+
+#run simulation
+run 200

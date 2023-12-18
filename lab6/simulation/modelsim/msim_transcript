@@ -1,0 +1,55 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do mux2input1bit_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/letya/Documents/Classes/230/projects/lab6/mux2input1bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:53:53 on Sep 28,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/letya/Documents/Classes/230/projects/lab6/mux2input1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2input1bit
+# -- Compiling architecture implementation1 of mux2input1bit
+# End time: 17:53:53 on Sep 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# do "C:/Users/letya/Documents/Classes/230/projects/lab6/task.do"
+#the name must be the same as your vhdl filename
+# vsim mux2input1bit
+# vsim mux2input1bit 
+# Start time: 17:53:53 on Sep 28,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mux2input1bit(implementation1)
+# 
+#view waveform
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 
+#view input signals
+# add wave a
+# add wave b
+# add wave s
+# 
+#view output signal
+# add wave output
+# 
+#set input signal values
+# force a 0 0, 1 10 -repeat 20
+# force b 0 0, 1 20 -repeat 40
+# force s 0 0, 1 40 -repeat 80
+# 
+#run simulation
+# run 80
+# End time: 17:54:35 on Sep 28,2023, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0

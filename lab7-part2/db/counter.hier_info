@@ -1,0 +1,31 @@
+|counter
+clock => current_state[0].CLK
+clock => current_state[1].CLK
+clock => current_state[2].CLK
+reset => current_state[0].ACLR
+reset => current_state[1].ACLR
+reset => current_state[2].ACLR
+increment => Mux1.IN6
+increment => Mux1.IN7
+increment => Mux2.IN4
+increment => Mux2.IN5
+increment => Mux2.IN6
+increment => Mux2.IN7
+increment => Mux0.IN7
+increment => Mux1.IN5
+increment => Mux2.IN0
+increment => Mux2.IN1
+increment => Mux2.IN2
+increment => Mux2.IN3
+output[0] << Mux9.DB_MAX_OUTPUT_PORT_TYPE
+output[1] << Mux8.DB_MAX_OUTPUT_PORT_TYPE
+output[2] << Mux7.DB_MAX_OUTPUT_PORT_TYPE
+output[3] << Mux6.DB_MAX_OUTPUT_PORT_TYPE
+output[4] << Mux5.DB_MAX_OUTPUT_PORT_TYPE
+output[5] << Mux4.DB_MAX_OUTPUT_PORT_TYPE
+output[6] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+debug_current_state[0] << current_state[0].DB_MAX_OUTPUT_PORT_TYPE
+debug_current_state[1] << current_state[1].DB_MAX_OUTPUT_PORT_TYPE
+debug_current_state[2] << current_state[2].DB_MAX_OUTPUT_PORT_TYPE
+
+

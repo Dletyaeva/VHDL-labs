@@ -1,0 +1,56 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do counter_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/letya/Documents/Classes/230/projects/lab7-part2/counter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:32:29 on Oct 11,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/letya/Documents/Classes/230/projects/lab7-part2/counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity counter
+# -- Compiling architecture implementation of counter
+# End time: 20:32:30 on Oct 11,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# do "C:/Users/letya/Documents/Classes/230/projects/lab7-part2/output_files/counter.do"
+#the name must be the same as your vhdl filename
+# 	vsim counter
+# vsim counter 
+# Start time: 20:32:31 on Oct 11,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter(implementation)
+# 	
+#view waveform
+# 	view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 	
+#view input signals
+# 	add wave clock
+# 	add wave reset
+# 	add wave increment
+# 	
+#view output signals
+# 	add wave debug_current_state
+# 	add wave output
+# 	
+#set input signal values
+# 	force clock 1 0, 0 5 -repeat 10
+# 	force reset 1 0, 0 5, 1 80, 0 85, 1 140
+# 	force increment 0 0, 1 90
+# 	
+#run simulation
+# 	run 150
+# End time: 11:22:43 on Oct 12,2023, Elapsed time: 14:50:12
+# Errors: 0, Warnings: 0

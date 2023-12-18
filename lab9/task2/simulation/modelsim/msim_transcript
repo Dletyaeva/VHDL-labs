@@ -1,0 +1,111 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do ALU_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Mux4Input4Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:39:43 on Nov 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Mux4Input4Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4Input4Bit
+# -- Compiling architecture implementation of mux4Input4Bit
+# End time: 20:39:43 on Nov 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Mux2Input4Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:39:43 on Nov 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Mux2Input4Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux2Input4Bit
+# -- Compiling architecture implementation of mux2Input4Bit
+# End time: 20:39:44 on Nov 06,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Adder1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:39:44 on Nov 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Adder1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder1Bit
+# -- Compiling architecture implementation of Adder1Bit
+# End time: 20:39:44 on Nov 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Adder4bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:39:44 on Nov 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Adder4bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder4Bit
+# -- Compiling architecture implementation of Adder4bit
+# End time: 20:39:44 on Nov 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/letya/Documents/Classes/230/projects/lab9/task2/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:39:44 on Nov 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/letya/Documents/Classes/230/projects/lab9/task2/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture implementation of ALU
+# End time: 20:39:44 on Nov 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# do "C:/Users/letya/Documents/Classes/230/projects/lab9/task2/task.do"
+# vsim ALU
+# vsim ALU 
+# Start time: 20:39:44 on Nov 06,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu(implementation)
+# Loading work.mux2input4bit(implementation)
+# Loading work.adder4bit(implementation)
+# Loading work.adder1bit(implementation)
+# Loading work.mux4input4bit(implementation)
+# 
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 
+# add wave A
+# add wave B
+# add wave ALU_op
+# add wave A_inv
+# add wave B_inv
+# add wave C_in
+# 
+# add wave ALU_out
+# add wave N
+# add wave C
+# add wave V
+# add wave Z
+# 
+# test all possible operations
+# force A 0110 0
+# force B 0011 0
+# force ALU_op(0) 0 0, 1 10 -repeat 20 
+# force ALU_op(1) 0 0, 1 20 -repeat 40 
+# force A_inv 0 0, 1 40 -repeat 80 
+# force B_inv 0 0, 1 80 
+# force C_in 0 0, 1 115, 0 120 
+# 
+# run 160
+# 
+# 
+# End time: 20:41:56 on Nov 06,2023, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 0

@@ -1,0 +1,117 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "OutputA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "InputC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "AddressC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RF_write",
+					"strict" : false
+				},
+				{
+					"name" : "AddressC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "InputC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "InputC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "InputC[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

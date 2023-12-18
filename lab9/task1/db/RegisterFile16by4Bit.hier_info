@@ -1,0 +1,1240 @@
+|RegisterFile16by4Bit
+clock => Reg4Bit:reg0.clock
+clock => Reg4Bit:reg1.clock
+clock => Reg4Bit:reg2.clock
+clock => Reg4Bit:reg3.clock
+clock => Reg4Bit:reg4.clock
+clock => Reg4Bit:reg5.clock
+clock => Reg4Bit:reg6.clock
+clock => Reg4Bit:reg7.clock
+clock => Reg4Bit:reg8.clock
+clock => Reg4Bit:reg9.clock
+clock => Reg4Bit:reg10.clock
+clock => Reg4Bit:reg11.clock
+clock => Reg4Bit:reg12.clock
+clock => Reg4Bit:reg13.clock
+clock => Reg4Bit:reg14.clock
+clock => Reg4Bit:reg15.clock
+reset => Reg4Bit:reg0.reset
+reset => Reg4Bit:reg1.reset
+reset => Reg4Bit:reg2.reset
+reset => Reg4Bit:reg3.reset
+reset => Reg4Bit:reg4.reset
+reset => Reg4Bit:reg5.reset
+reset => Reg4Bit:reg6.reset
+reset => Reg4Bit:reg7.reset
+reset => Reg4Bit:reg8.reset
+reset => Reg4Bit:reg9.reset
+reset => Reg4Bit:reg10.reset
+reset => Reg4Bit:reg11.reset
+reset => Reg4Bit:reg12.reset
+reset => Reg4Bit:reg13.reset
+reset => Reg4Bit:reg14.reset
+reset => Reg4Bit:reg15.reset
+RF_write => in_ENB_0.IN1
+RF_write => in_ENB_1.IN1
+RF_write => in_ENB_2.IN1
+RF_write => in_ENB_3.IN1
+RF_write => in_ENB_4.IN1
+RF_write => in_ENB_5.IN1
+RF_write => in_ENB_6.IN1
+RF_write => in_ENB_7.IN1
+RF_write => in_ENB_8.IN1
+RF_write => in_ENB_9.IN1
+RF_write => in_ENB_10.IN1
+RF_write => in_ENB_11.IN1
+RF_write => in_ENB_12.IN1
+RF_write => in_ENB_13.IN1
+RF_write => in_ENB_14.IN1
+RF_write => in_ENB_15.IN1
+AddressA[0] => Mux16Input4Bit:mux1.s[0]
+AddressA[1] => Mux16Input4Bit:mux1.s[1]
+AddressA[2] => Mux16Input4Bit:mux1.s[2]
+AddressA[3] => Mux16Input4Bit:mux1.s[3]
+AddressB[0] => Mux16Input4Bit:mux2.s[0]
+AddressB[1] => Mux16Input4Bit:mux2.s[1]
+AddressB[2] => Mux16Input4Bit:mux2.s[2]
+AddressB[3] => Mux16Input4Bit:mux2.s[3]
+AddressC[0] => Decoder4bit:Decoder.x[0]
+AddressC[1] => Decoder4bit:Decoder.x[1]
+AddressC[2] => Decoder4bit:Decoder.x[2]
+AddressC[3] => Decoder4bit:Decoder.x[3]
+InputC[0] => Reg4Bit:reg0.D[0]
+InputC[0] => Reg4Bit:reg1.D[0]
+InputC[0] => Reg4Bit:reg2.D[0]
+InputC[0] => Reg4Bit:reg3.D[0]
+InputC[0] => Reg4Bit:reg4.D[0]
+InputC[0] => Reg4Bit:reg5.D[0]
+InputC[0] => Reg4Bit:reg6.D[0]
+InputC[0] => Reg4Bit:reg7.D[0]
+InputC[0] => Reg4Bit:reg8.D[0]
+InputC[0] => Reg4Bit:reg9.D[0]
+InputC[0] => Reg4Bit:reg10.D[0]
+InputC[0] => Reg4Bit:reg11.D[0]
+InputC[0] => Reg4Bit:reg12.D[0]
+InputC[0] => Reg4Bit:reg13.D[0]
+InputC[0] => Reg4Bit:reg14.D[0]
+InputC[0] => Reg4Bit:reg15.D[0]
+InputC[1] => Reg4Bit:reg0.D[1]
+InputC[1] => Reg4Bit:reg1.D[1]
+InputC[1] => Reg4Bit:reg2.D[1]
+InputC[1] => Reg4Bit:reg3.D[1]
+InputC[1] => Reg4Bit:reg4.D[1]
+InputC[1] => Reg4Bit:reg5.D[1]
+InputC[1] => Reg4Bit:reg6.D[1]
+InputC[1] => Reg4Bit:reg7.D[1]
+InputC[1] => Reg4Bit:reg8.D[1]
+InputC[1] => Reg4Bit:reg9.D[1]
+InputC[1] => Reg4Bit:reg10.D[1]
+InputC[1] => Reg4Bit:reg11.D[1]
+InputC[1] => Reg4Bit:reg12.D[1]
+InputC[1] => Reg4Bit:reg13.D[1]
+InputC[1] => Reg4Bit:reg14.D[1]
+InputC[1] => Reg4Bit:reg15.D[1]
+InputC[2] => Reg4Bit:reg0.D[2]
+InputC[2] => Reg4Bit:reg1.D[2]
+InputC[2] => Reg4Bit:reg2.D[2]
+InputC[2] => Reg4Bit:reg3.D[2]
+InputC[2] => Reg4Bit:reg4.D[2]
+InputC[2] => Reg4Bit:reg5.D[2]
+InputC[2] => Reg4Bit:reg6.D[2]
+InputC[2] => Reg4Bit:reg7.D[2]
+InputC[2] => Reg4Bit:reg8.D[2]
+InputC[2] => Reg4Bit:reg9.D[2]
+InputC[2] => Reg4Bit:reg10.D[2]
+InputC[2] => Reg4Bit:reg11.D[2]
+InputC[2] => Reg4Bit:reg12.D[2]
+InputC[2] => Reg4Bit:reg13.D[2]
+InputC[2] => Reg4Bit:reg14.D[2]
+InputC[2] => Reg4Bit:reg15.D[2]
+InputC[3] => Reg4Bit:reg0.D[3]
+InputC[3] => Reg4Bit:reg1.D[3]
+InputC[3] => Reg4Bit:reg2.D[3]
+InputC[3] => Reg4Bit:reg3.D[3]
+InputC[3] => Reg4Bit:reg4.D[3]
+InputC[3] => Reg4Bit:reg5.D[3]
+InputC[3] => Reg4Bit:reg6.D[3]
+InputC[3] => Reg4Bit:reg7.D[3]
+InputC[3] => Reg4Bit:reg8.D[3]
+InputC[3] => Reg4Bit:reg9.D[3]
+InputC[3] => Reg4Bit:reg10.D[3]
+InputC[3] => Reg4Bit:reg11.D[3]
+InputC[3] => Reg4Bit:reg12.D[3]
+InputC[3] => Reg4Bit:reg13.D[3]
+InputC[3] => Reg4Bit:reg14.D[3]
+InputC[3] => Reg4Bit:reg15.D[3]
+OutputA[0] <= Mux16Input4Bit:mux1.output[0]
+OutputA[1] <= Mux16Input4Bit:mux1.output[1]
+OutputA[2] <= Mux16Input4Bit:mux1.output[2]
+OutputA[3] <= Mux16Input4Bit:mux1.output[3]
+OutputB[0] <= Mux16Input4Bit:mux2.output[0]
+OutputB[1] <= Mux16Input4Bit:mux2.output[1]
+OutputB[2] <= Mux16Input4Bit:mux2.output[2]
+OutputB[3] <= Mux16Input4Bit:mux2.output[3]
+
+
+|RegisterFile16by4Bit|Decoder4Bit:Decoder
+x[0] => y.IN1
+x[0] => y.IN1
+x[0] => y.IN1
+x[0] => y.IN1
+x[0] => y.IN1
+x[0] => y.IN1
+x[0] => y.IN1
+x[0] => y.IN1
+x[0] => y.IN1
+x[0] => y.IN1
+x[0] => y.IN1
+x[0] => y.IN1
+x[0] => y.IN1
+x[0] => y.IN1
+x[0] => y.IN1
+x[0] => y.IN1
+x[1] => y.IN1
+x[1] => y.IN1
+x[1] => y.IN1
+x[1] => y.IN1
+x[1] => y.IN1
+x[1] => y.IN1
+x[1] => y.IN1
+x[1] => y.IN1
+x[2] => y.IN0
+x[2] => y.IN0
+x[2] => y.IN0
+x[2] => y.IN0
+x[3] => y.IN1
+x[3] => y.IN1
+x[3] => y.IN1
+x[3] => y.IN1
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[8] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[9] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[10] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[11] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[12] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[13] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[14] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[15] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg0
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg0|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg0|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg0|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg0|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg1
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg1|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg1|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg1|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg1|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg2
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg2|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg2|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg2|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg2|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg3
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg3|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg3|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg3|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg3|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg4
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg4|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg4|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg4|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg4|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg5
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg5|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg5|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg5|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg5|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg6
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg6|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg6|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg6|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg6|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg7
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg7|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg7|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg7|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg7|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg8
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg8|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg8|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg8|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg8|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg9
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg9|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg9|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg9|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg9|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg10
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg10|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg10|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg10|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg10|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg11
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg11|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg11|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg11|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg11|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg12
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg12|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg12|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg12|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg12|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg13
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg13|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg13|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg13|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg13|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg14
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg14|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg14|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg14|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg14|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg15
+clock => Reg1Bit:bit0.clock
+clock => Reg1Bit:bit1.clock
+clock => Reg1Bit:bit2.clock
+clock => Reg1Bit:bit3.clock
+reset => Reg1Bit:bit0.reset
+reset => Reg1Bit:bit1.reset
+reset => Reg1Bit:bit2.reset
+reset => Reg1Bit:bit3.reset
+enable => Reg1Bit:bit0.enable
+enable => Reg1Bit:bit1.enable
+enable => Reg1Bit:bit2.enable
+enable => Reg1Bit:bit3.enable
+D[0] => Reg1Bit:bit0.D
+D[1] => Reg1Bit:bit1.D
+D[2] => Reg1Bit:bit2.D
+D[3] => Reg1Bit:bit3.D
+Q[0] <= Reg1Bit:bit0.Q
+Q[1] <= Reg1Bit:bit1.Q
+Q[2] <= Reg1Bit:bit2.Q
+Q[3] <= Reg1Bit:bit3.Q
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg15|Reg1Bit:bit0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg15|Reg1Bit:bit1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg15|Reg1Bit:bit2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Reg4Bit:reg15|Reg1Bit:bit3
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+enable => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Mux16Input4Bit:mux1
+s[0] => Mux0.IN3
+s[0] => Mux1.IN3
+s[0] => Mux2.IN3
+s[0] => Mux3.IN3
+s[1] => Mux0.IN2
+s[1] => Mux1.IN2
+s[1] => Mux2.IN2
+s[1] => Mux3.IN2
+s[2] => Mux0.IN1
+s[2] => Mux1.IN1
+s[2] => Mux2.IN1
+s[2] => Mux3.IN1
+s[3] => Mux0.IN0
+s[3] => Mux1.IN0
+s[3] => Mux2.IN0
+s[3] => Mux3.IN0
+input0[0] => Mux3.IN4
+input0[1] => Mux2.IN4
+input0[2] => Mux1.IN4
+input0[3] => Mux0.IN4
+input1[0] => Mux3.IN5
+input1[1] => Mux2.IN5
+input1[2] => Mux1.IN5
+input1[3] => Mux0.IN5
+input2[0] => Mux3.IN6
+input2[1] => Mux2.IN6
+input2[2] => Mux1.IN6
+input2[3] => Mux0.IN6
+input3[0] => Mux3.IN7
+input3[1] => Mux2.IN7
+input3[2] => Mux1.IN7
+input3[3] => Mux0.IN7
+input4[0] => Mux3.IN8
+input4[1] => Mux2.IN8
+input4[2] => Mux1.IN8
+input4[3] => Mux0.IN8
+input5[0] => Mux3.IN9
+input5[1] => Mux2.IN9
+input5[2] => Mux1.IN9
+input5[3] => Mux0.IN9
+input6[0] => Mux3.IN10
+input6[1] => Mux2.IN10
+input6[2] => Mux1.IN10
+input6[3] => Mux0.IN10
+input7[0] => Mux3.IN11
+input7[1] => Mux2.IN11
+input7[2] => Mux1.IN11
+input7[3] => Mux0.IN11
+input8[0] => Mux3.IN12
+input8[1] => Mux2.IN12
+input8[2] => Mux1.IN12
+input8[3] => Mux0.IN12
+input9[0] => Mux3.IN13
+input9[1] => Mux2.IN13
+input9[2] => Mux1.IN13
+input9[3] => Mux0.IN13
+input10[0] => Mux3.IN14
+input10[1] => Mux2.IN14
+input10[2] => Mux1.IN14
+input10[3] => Mux0.IN14
+input11[0] => Mux3.IN15
+input11[1] => Mux2.IN15
+input11[2] => Mux1.IN15
+input11[3] => Mux0.IN15
+input12[0] => Mux3.IN16
+input12[1] => Mux2.IN16
+input12[2] => Mux1.IN16
+input12[3] => Mux0.IN16
+input13[0] => Mux3.IN17
+input13[1] => Mux2.IN17
+input13[2] => Mux1.IN17
+input13[3] => Mux0.IN17
+input14[0] => Mux3.IN18
+input14[1] => Mux2.IN18
+input14[2] => Mux1.IN18
+input14[3] => Mux0.IN18
+input15[0] => Mux3.IN19
+input15[1] => Mux2.IN19
+input15[2] => Mux1.IN19
+input15[3] => Mux0.IN19
+output[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RegisterFile16by4Bit|Mux16Input4Bit:mux2
+s[0] => Mux0.IN3
+s[0] => Mux1.IN3
+s[0] => Mux2.IN3
+s[0] => Mux3.IN3
+s[1] => Mux0.IN2
+s[1] => Mux1.IN2
+s[1] => Mux2.IN2
+s[1] => Mux3.IN2
+s[2] => Mux0.IN1
+s[2] => Mux1.IN1
+s[2] => Mux2.IN1
+s[2] => Mux3.IN1
+s[3] => Mux0.IN0
+s[3] => Mux1.IN0
+s[3] => Mux2.IN0
+s[3] => Mux3.IN0
+input0[0] => Mux3.IN4
+input0[1] => Mux2.IN4
+input0[2] => Mux1.IN4
+input0[3] => Mux0.IN4
+input1[0] => Mux3.IN5
+input1[1] => Mux2.IN5
+input1[2] => Mux1.IN5
+input1[3] => Mux0.IN5
+input2[0] => Mux3.IN6
+input2[1] => Mux2.IN6
+input2[2] => Mux1.IN6
+input2[3] => Mux0.IN6
+input3[0] => Mux3.IN7
+input3[1] => Mux2.IN7
+input3[2] => Mux1.IN7
+input3[3] => Mux0.IN7
+input4[0] => Mux3.IN8
+input4[1] => Mux2.IN8
+input4[2] => Mux1.IN8
+input4[3] => Mux0.IN8
+input5[0] => Mux3.IN9
+input5[1] => Mux2.IN9
+input5[2] => Mux1.IN9
+input5[3] => Mux0.IN9
+input6[0] => Mux3.IN10
+input6[1] => Mux2.IN10
+input6[2] => Mux1.IN10
+input6[3] => Mux0.IN10
+input7[0] => Mux3.IN11
+input7[1] => Mux2.IN11
+input7[2] => Mux1.IN11
+input7[3] => Mux0.IN11
+input8[0] => Mux3.IN12
+input8[1] => Mux2.IN12
+input8[2] => Mux1.IN12
+input8[3] => Mux0.IN12
+input9[0] => Mux3.IN13
+input9[1] => Mux2.IN13
+input9[2] => Mux1.IN13
+input9[3] => Mux0.IN13
+input10[0] => Mux3.IN14
+input10[1] => Mux2.IN14
+input10[2] => Mux1.IN14
+input10[3] => Mux0.IN14
+input11[0] => Mux3.IN15
+input11[1] => Mux2.IN15
+input11[2] => Mux1.IN15
+input11[3] => Mux0.IN15
+input12[0] => Mux3.IN16
+input12[1] => Mux2.IN16
+input12[2] => Mux1.IN16
+input12[3] => Mux0.IN16
+input13[0] => Mux3.IN17
+input13[1] => Mux2.IN17
+input13[2] => Mux1.IN17
+input13[3] => Mux0.IN17
+input14[0] => Mux3.IN18
+input14[1] => Mux2.IN18
+input14[2] => Mux1.IN18
+input14[3] => Mux0.IN18
+input15[0] => Mux3.IN19
+input15[1] => Mux2.IN19
+input15[2] => Mux1.IN19
+input15[3] => Mux0.IN19
+output[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

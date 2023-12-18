@@ -1,0 +1,51 @@
+|mux2input4bit
+s => mux2input1bit:m0.s
+s => mux2input1bit:m1.s
+s => mux2input1bit:m2.s
+s => mux2input1bit:m3.s
+a[0] => mux2input1bit:m0.a
+a[1] => mux2input1bit:m1.a
+a[2] => mux2input1bit:m2.a
+a[3] => mux2input1bit:m3.a
+b[0] => mux2input1bit:m0.b
+b[1] => mux2input1bit:m1.b
+b[2] => mux2input1bit:m2.b
+b[3] => mux2input1bit:m3.b
+output[0] << mux2input1bit:m0.output
+output[1] << mux2input1bit:m1.output
+output[2] << mux2input1bit:m2.output
+output[3] << mux2input1bit:m3.output
+
+
+|mux2input4bit|mux2input1bit:m0
+s => term2.IN0
+s => term1.IN0
+a => term1.IN1
+b => term2.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux2input4bit|mux2input1bit:m1
+s => term2.IN0
+s => term1.IN0
+a => term1.IN1
+b => term2.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux2input4bit|mux2input1bit:m2
+s => term2.IN0
+s => term1.IN0
+a => term1.IN1
+b => term2.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux2input4bit|mux2input1bit:m3
+s => term2.IN0
+s => term1.IN0
+a => term1.IN1
+b => term2.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+

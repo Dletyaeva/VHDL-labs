@@ -1,0 +1,205 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/letya/Documents/Classes/230/projects/lab9/task2/simulation/modelsim
+Eadder1bit
+Z1 w1698207933
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Adder1Bit.vhd
+Z5 FC:/Users/letya/Documents/Classes/230/projects/lab9/task2/Adder1Bit.vhd
+l0
+L21
+VPfR]89Wf:P4Sb0=a?haoM2
+!s100 [nz>`ECNQ_h[Eo5K]>b;X0
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1699324784
+!i10b 1
+Z8 !s108 1699324784.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Adder1Bit.vhd|
+Z10 !s107 C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Adder1Bit.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aimplementation
+R2
+R3
+DEx4 work 9 adder1bit 0 22 PfR]89Wf:P4Sb0=a?haoM2
+l29
+L28
+V@^ECc0:kbGCcWmNX<E<jj3
+!s100 ZfGzQ]4V24J8d2Oh<?D=Z3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eadder4bit
+Z13 w1699074075
+R2
+R3
+R0
+Z14 8C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Adder4bit.vhd
+Z15 FC:/Users/letya/Documents/Classes/230/projects/lab9/task2/Adder4bit.vhd
+l0
+L4
+VUm2aNm0AQ;k:]WMjDPcA01
+!s100 X75:UEef>4YF4Y9zGoRa;2
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Adder4bit.vhd|
+Z17 !s107 C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Adder4bit.vhd|
+!i113 1
+R11
+R12
+Aimplementation
+R2
+R3
+DEx4 work 9 adder4bit 0 22 Um2aNm0AQ;k:]WMjDPcA01
+l29
+L14
+VRX<VDU9BLj>XV;a?Z`F1M0
+!s100 B_Z4lIc4`JB_DRN;k^XR]0
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Ealu
+Z18 w1699324717
+R2
+R3
+R0
+Z19 8C:/Users/letya/Documents/Classes/230/projects/lab9/task2/ALU.vhd
+Z20 FC:/Users/letya/Documents/Classes/230/projects/lab9/task2/ALU.vhd
+l0
+L4
+VBd<MANCbO@0WkM6i:E`SU2
+!s100 SJQe=U:L?U6zYRG03^X:U0
+R6
+31
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/Users/letya/Documents/Classes/230/projects/lab9/task2/ALU.vhd|
+Z22 !s107 C:/Users/letya/Documents/Classes/230/projects/lab9/task2/ALU.vhd|
+!i113 1
+R11
+R12
+Aimplementation
+R2
+R3
+DEx4 work 3 alu 0 22 Bd<MANCbO@0WkM6i:E`SU2
+l70
+L16
+V:3j105:CK8a:@kO=aWEJa0
+!s100 U59<0ncKL]o`L?<]gUb;j0
+R6
+31
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Emux2input4bit
+Z23 w1698207939
+R2
+R3
+R0
+Z24 8C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Mux2Input4Bit.vhd
+Z25 FC:/Users/letya/Documents/Classes/230/projects/lab9/task2/Mux2Input4Bit.vhd
+l0
+L21
+VX]]gAM>[ESg4H6SO^E7Vd1
+!s100 ]OM]?N_hN<LcMEB0S0n2o3
+R6
+31
+R7
+!i10b 1
+Z26 !s108 1699324783.000000
+Z27 !s90 -reportprogress|300|-93|-work|work|C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Mux2Input4Bit.vhd|
+Z28 !s107 C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Mux2Input4Bit.vhd|
+!i113 1
+R11
+R12
+Aimplementation
+R2
+R3
+DEx4 work 13 mux2input4bit 0 22 X]]gAM>[ESg4H6SO^E7Vd1
+l29
+L28
+VGgo]^ln]zCIJ0ia^>ZANL2
+!s100 @mT85a7J;R`iMldfTdOV20
+R6
+31
+R7
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R11
+R12
+Emux4input4bit
+Z29 w1698207944
+R2
+R3
+R0
+Z30 8C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Mux4Input4Bit.vhd
+Z31 FC:/Users/letya/Documents/Classes/230/projects/lab9/task2/Mux4Input4Bit.vhd
+l0
+L21
+VgCegdR;ol9=zQ@>7eR58D2
+!s100 089QNDcZole3a?E@lX[C61
+R6
+31
+Z32 !s110 1699324783
+!i10b 1
+R26
+Z33 !s90 -reportprogress|300|-93|-work|work|C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Mux4Input4Bit.vhd|
+Z34 !s107 C:/Users/letya/Documents/Classes/230/projects/lab9/task2/Mux4Input4Bit.vhd|
+!i113 1
+R11
+R12
+Aimplementation
+R2
+R3
+DEx4 work 13 mux4input4bit 0 22 gCegdR;ol9=zQ@>7eR58D2
+l29
+L28
+V8f2iY@[2@Fc:Ak@0[z^5g2
+!s100 f]z4@bEokmG4K[ZGXzeg?1
+R6
+31
+R32
+!i10b 1
+R26
+R33
+R34
+!i113 1
+R11
+R12

@@ -1,0 +1,30 @@
+----------------------------------------------------------------------------------
+-- Name:		Daleela
+-- Date:		10/31/2023
+-- Course:	CSCE 230
+-- File:		RegisterFile16by4Bit.vhd
+-- HW:		Lab 9
+-- Purp:		Implements a register file that is 16 by 4 bits
+--
+-- Doc:		
+-- 	
+-- Academic Integrity Statement: I certify that, while others may have 
+-- assisted me in brain storming, debugging and validating this program, 
+-- the program itself is my own work. I understand that submitting code 
+-- which is the work of other individuals is a violation of the honor   
+-- code.  I also understand that if I knowingly give my original work to 
+-- another individual is also a violation of the honor code. 
+----------------------------------------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity RegisterFile16by4Bit is
+	port(
+		clock, reset, RF_write :in std_logic;
+		AddressA, AddressB, AddressC :in std_logic_vector(3 downto 0);
+		InputC :in std_logic_vector(3 downto 0);
+		OutputA, OutputB :out std_logic_vector(3 downto 0) 
+		);
+end RegisterFile16by4Bit;
+
+

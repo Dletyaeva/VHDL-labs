@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sun Oct 29 20:15:59 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : top_tbird
+Top-level Entity Name : top_tbird
+Family : MAX 10
+Total logic elements : 51
+    Total combinational functions : 47
+    Dedicated logic registers : 32
+Total registers : 32
+Total pins : 11
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

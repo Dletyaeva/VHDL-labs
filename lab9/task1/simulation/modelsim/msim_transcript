@@ -1,0 +1,132 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do RegisterFile16by4Bit_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/letya/Documents/Classes/230/projects/lab9/task1/Reg4Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:10:10 on Nov 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/letya/Documents/Classes/230/projects/lab9/task1/Reg4Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg4Bit
+# -- Compiling architecture implementation of Reg4Bit
+# End time: 21:10:10 on Nov 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/letya/Documents/Classes/230/projects/lab9/task1/Reg1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:10:10 on Nov 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/letya/Documents/Classes/230/projects/lab9/task1/Reg1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg1Bit
+# -- Compiling architecture implementation of Reg1Bit
+# End time: 21:10:10 on Nov 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/letya/Documents/Classes/230/projects/lab9/task1/Mux16Input4Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:10:10 on Nov 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/letya/Documents/Classes/230/projects/lab9/task1/Mux16Input4Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux16Input4Bit
+# -- Compiling architecture implementation of mux16Input4Bit
+# End time: 21:10:10 on Nov 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/letya/Documents/Classes/230/projects/lab9/task1/Decoder4Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:10:10 on Nov 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/letya/Documents/Classes/230/projects/lab9/task1/Decoder4Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decoder4Bit
+# -- Compiling architecture implementation of Decoder4Bit
+# End time: 21:10:10 on Nov 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/letya/Documents/Classes/230/projects/lab9/task1/RegisterFile16by4Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:10:11 on Nov 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/letya/Documents/Classes/230/projects/lab9/task1/RegisterFile16by4Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegisterFile16by4Bit
+# -- Compiling architecture implementation of RegisterFile16by4Bit
+# End time: 21:10:11 on Nov 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# do "C:/Users/letya/Documents/Classes/230/projects/lab9/task1/task.do"
+# vsim RegisterFile16by4Bit
+# vsim RegisterFile16by4Bit 
+# Start time: 21:10:11 on Nov 06,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.registerfile16by4bit(implementation)
+# Loading work.decoder4bit(implementation)
+# Loading work.reg4bit(implementation)
+# Loading work.reg1bit(implementation)
+# Loading work.mux16input4bit(implementation)
+# 
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 
+# add wave clock
+# add wave reset
+# add wave RF_write
+# add wave AddressA
+# add wave AddressB
+# add wave AddressC
+# add wave InputC
+# 
+# add wave OutputA
+# add wave OutputB
+# 
+# add wave -color yellow regOut_muxIn_1
+# add wave -color yellow regOut_muxIn_2
+# add wave -color yellow regOut_muxIn_3
+# add wave -color yellow regOut_muxIn_4
+# add wave -color yellow regOut_muxIn_8
+# 
+# force clock 1 0 , 0 10  -repeat 20 
+# 
+# reset between 0 and 10
+# force reset 1 0 , 0 10   
+# 
+# write from time 0
+# force RF_write 1 0       
+# force AddressA 0001 0 
+# force AddressB 0010 0 
+# force AddressC 0001 0 , 0010 25 , 0011 45 , 0100 65 , 0011 85 , 0100 105 
+# force InputC   0001 0 , 0010 25 , 0011 45 , 0100 65 , 1011 85 , 1100 105 
+# 
+# read from time 125
+# force RF_write 0 125   
+# force AddressA 0001 125 , 0011 145  
+# force AddressB 0010 125 , 0100 145 
+# force AddressC 0001 125 
+# force InputC   1001 125 
+# 
+# reset from time 165
+# force reset 1 165       
+# force AddressA 0001 165 
+# force AddressB 0010 165 
+# force AddressC 0000 165 
+# force InputC   0000 165 
+# 
+# run 180 
+# 
+# 
+# End time: 21:15:08 on Nov 06,2023, Elapsed time: 0:04:57
+# Errors: 0, Warnings: 0
